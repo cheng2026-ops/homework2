@@ -56,3 +56,8 @@ GPIO_InitStruct.Pull = GPIO_NOPULL;
 GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
 HAL_GPIO_Init(LED2_GPIO_Port, &GPIO_InitStruct);
 ```
+
+## 验收视频
+
+- [验收视频.mp4](验收视频.mp4)：CLion 中编译通过并启动烧录，OpenOCD 控制台输出 `** Programming Started **`、`device id = 0x00006410`、`** Programming Finished **`，烧录成功后板上三灯按 500 ms 流水点亮。
+- [演示视频.mp4](演示视频.mp4)：三灯流水灯运行近景。
